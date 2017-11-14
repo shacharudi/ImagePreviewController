@@ -22,7 +22,7 @@ pod 'ImagePreviewController'
 
 ## Author
 
-cocoecco@yahoo.com, cocoecco@yahoo.com
+Shachar Udi | shacharudi9@yahoo.com
 
 ## License
 

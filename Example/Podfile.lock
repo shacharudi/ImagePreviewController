@@ -1,0 +1,16 @@
+PODS:
+  - ImagePreviewController (0.1.0)
+
+DEPENDENCIES:
+  - ImagePreviewController (from `../`)
+
+EXTERNAL SOURCES:
+  ImagePreviewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ImagePreviewController: bd25f71fbe9a1a4b3f60226c4a43c25ac9ae9b64
+
+PODFILE CHECKSUM: fcf5c597c05ce8e03aadc997c8981ebd6c1403aa
+
+COCOAPODS: 1.3.1
