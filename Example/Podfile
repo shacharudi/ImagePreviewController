@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ImagePreviewController_Example' do
+  pod 'ImagePreviewController', :path => '../'
+
+  target 'ImagePreviewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
