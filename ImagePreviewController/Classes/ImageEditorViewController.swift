@@ -29,15 +29,17 @@ public class ImageEditorViewController: UIViewController, ImageEditorTextViewDel
         super.init(nibName: nil, bundle: nil)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
+    override public func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
         NotificationCenter.default.removeObserver(self)
     }
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
+        super.viewDidLoad()
         self.setupPhotoEditor()
         self.setupInputView()
         self.addDismissTapHandler()
@@ -69,7 +71,7 @@ public class ImageEditorViewController: UIViewController, ImageEditorTextViewDel
         self.view.endEditing(true)
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    override public func viewDidAppear(_ animated: Bool) {
         //registering for keyboard events on viewDidAppear prevents issue with 'keyboardWillShow' then 'keyboardWillHide' being called
         super.viewDidAppear(animated)
         NotificationCenter.default.addObserver(self, selector: #selector(keyboardFrameChanged(notification:)), name: NSNotification.Name.UIKeyboardDidChangeFrame, object: nil)
