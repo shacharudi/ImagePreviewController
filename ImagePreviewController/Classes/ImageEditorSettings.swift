@@ -28,34 +28,34 @@ struct ImageEditorSettings {
     static let defaultPlaceholderText = "Type a message..."
 }
 
-class ImageEditorCustomSettings {
+public class ImageEditorCustomSettings {
     
     /** Background color for View Controller */
-    var IEBackgroundColor: UIColor? = nil
+    public var IEBackgroundColor: UIColor? = nil
     /** Background color for Image View */
-    var IEImageViewBackgroundColor: UIColor? = nil
+    public var IEImageViewBackgroundColor: UIColor? = nil
     /** Text Color for input TextView */
-    var IETextViewTextColor: UIColor? = nil
+    public var IETextViewTextColor: UIColor? = nil
     /** Text Color for input TextView PlaceHolder */
-    var IETextViewPlaceholderColor: UIColor? = nil
+    public var IETextViewPlaceholderColor: UIColor? = nil
     /** Border color for input TextView */
-    var IETextViewBorderColor: UIColor? = nil
+    public var IETextViewBorderColor: UIColor? = nil
     /** Color for top seperator (above the TextView) */
-    var IESeperatorColor: UIColor? = nil
+    public var IESeperatorColor: UIColor? = nil
     /** Tint color for send button */
-    var IESendButtonTintColor: UIColor? = nil
+    public var IESendButtonTintColor: UIColor? = nil
     /** Input Text View corner radius */
-    var IEImageEditorTextFieldCornerRadius: CGFloat? = nil
+    public var IEImageEditorTextFieldCornerRadius: CGFloat? = nil
     /** Top and bottom margin from container */
-    var IETextViewMarginInContainer: CGFloat? = nil
+    public var IETextViewMarginInContainer: CGFloat? = nil
     /** Font type and size used in input TextView */
-    var IETextViewFont: UIFont? = nil
+    public var IETextViewFont: UIFont? = nil
     /** Placeholder text that appears in TextView */
-    var IEPlaceholderText: String? = nil
+    public var IEPlaceholderText: String? = nil
     /** Icon for Send Button */
-    var IESendButtonImage: UIImage?
+    public var IESendButtonImage: UIImage?
     /** Icon for Cancel Button */
-    var IECancelButtonImage: UIImage?
+    public var IECancelButtonImage: UIImage?
     
     internal func screenWidth()-> CGFloat {
         return ImageEditorSettings.screenWidth

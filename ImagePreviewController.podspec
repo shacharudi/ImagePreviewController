@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name              = 'ImagePreviewController'
-s.version           = '0.0.4'
+s.version           = '0.0.5'
 s.summary           = 'Image preview with text view, cancel and send buttons'
 s.homepage          = 'https://github.com/shacharudi/ImagePreviewController'
 s.ios.deployment_target = '9.0'

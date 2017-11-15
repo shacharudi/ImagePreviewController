@@ -16,13 +16,13 @@ public protocol ImageEditorViewControllerDelegate {
 
 public class ImageEditorViewController: UIViewController, ImageEditorTextViewDelegate {
     
-    var delegate: ImageEditorViewControllerDelegate?
+    public var delegate: ImageEditorViewControllerDelegate?
     internal let textInputView: ImageEditorTextView
     internal let editorImageView: ImageEditorImageView
     internal let image: UIImage
-    internal var settings = ImageEditorCustomSettings()
+    public var settings = ImageEditorCustomSettings()
     
-    init(image: UIImage) {
+    public init(image: UIImage) {
         self.image = image
         self.textInputView = ImageEditorTextView(settings: self.settings)
         self.editorImageView = ImageEditorImageView(settings: self.settings)
