@@ -1,0 +1,22 @@
+{
+  "name": "ImagePreviewController",
+  "version": "0.1.0",
+  "summary": "A short description of ImagePreviewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cocoecco@yahoo.com/ImagePreviewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cocoecco@yahoo.com": "cocoecco@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/cocoecco@yahoo.com/ImagePreviewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ImagePreviewController/Classes/**/*"
+}
