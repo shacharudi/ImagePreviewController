@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D0EC1DFBCD2082CCCC69378C8783612 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		7382C434E92A79637B21212FB0D84BB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		92801D062AD385C694BF2A9A2A8670EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		14584D05C654B4EC28EBFA5A9858459A /* ImageEditorVCKeyBoardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289EBD3D3E0758E4D9E82E2F78F8C0FB /* ImageEditorVCKeyBoardDelegate.swift */; };
+		3014C109ADBDB289107B279BE3FCA5E8 /* ImagePreviewEditorLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B580971633D07B950631F093401867F3 /* ImagePreviewEditorLogger.swift */; };
+		38E63A4E2E69B80DC40852D381D80636 /* ImageEditorTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C17C4539AD71742DEE94DE3D02BE3C2 /* ImageEditorTextView.swift */; };
+		4B30F444EDA4ED20F2D6C6FD067F2CFA /* ImageEditorInputTextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700699619BB4BF7DCC8339DA36FBCAE4 /* ImageEditorInputTextViewDelegate.swift */; };
+		4CEEE2BEECA4A1D21E588FF1EB5C29BC /* ImageEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEEA6A5F0F71F4F49F1C0D7BED12017 /* ImageEditorViewController.swift */; };
+		54EF03623BDF4847A5E2CE477E92094F /* ImageEditorInputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F89AABE0FEF8BD44052F3F48A4F01E /* ImageEditorInputTextView.swift */; };
+		6D0EC1DFBCD2082CCCC69378C8783612 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		92801D062AD385C694BF2A9A2A8670EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		95719A391DB4F244477F6D4C447AE935 /* ImageEditorLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD01293BA3ECB7718C1071C3F60BE14 /* ImageEditorLayout.swift */; };
+		9AA37AF6D80585903726D638B8DA23CD /* ImagePreviewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894EC7E4D2E355077889E6E1A4E269CD /* ImagePreviewController-dummy.m */; };
 		9E64BA280643D079CBEC1EC494906924 /* Pods-ImagePreviewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E9C3F5D01D698B7ABC26C21C0A2F02 /* Pods-ImagePreviewController_Tests-dummy.m */; };
-		BA29DCF442F3590300C75AFD92313F13 /* ImagePreviewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB5A213BE906FF518EDABEC46C2AB17C /* ImagePreviewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6AECC8DD78328B916AD0D7B24116FC6 /* ImageEditorSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F1762F44A56A39957326F084601803 /* ImageEditorSettings.swift */; };
 		BB2CD2254D8232FA5D27ACD5969AFE73 /* Pods-ImagePreviewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AE87DEE8244AD54CB173F4AE2AD4FA9 /* Pods-ImagePreviewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7E9E890EA87891A7105ED23C08962B4 /* Pods-ImagePreviewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C368797B4AE922618639D4CE44130913 /* Pods-ImagePreviewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E72EEDBD5E8B7CB2638068BCA0890641 /* ImagePreviewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C08C25DEF225523A434CF788A8D8FE71 /* ImagePreviewController-dummy.m */; };
+		C83D716303648BFC0703A454D8904EC6 /* ImageEditorImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E347AF376EBC28DB085AC7124BBD9 /* ImageEditorImageView.swift */; };
+		DA9077F021B2F8A7CAA53694DCF6660E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		EDFB586E489EA6F95DA2847EFBAECBFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F35447227427CFCC21CCAE8A80F5A7B5 /* ImagePreviewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7A19D2C33620075B0CDB99B75E44C07 /* ImagePreviewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF12511CE83532305A9C55B770D5F61F /* Pods-ImagePreviewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6018E815A575CA0C0FF1EAFB389961 /* Pods-ImagePreviewController_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -23,70 +33,70 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0AB7B0D26E249FD04B160919975E178B;
+			remoteGlobalIDString = F085731DE4CF7848CA934727902FCC40;
 			remoteInfo = ImagePreviewController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0643432FAEAF0DE7972D155E195DEFAA /* Pods_ImagePreviewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImagePreviewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0719E81F681530B97F198844A2443663 /* ImagePreviewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImagePreviewController-prefix.pch"; sourceTree = "<group>"; };
+		0643432FAEAF0DE7972D155E195DEFAA /* Pods_ImagePreviewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImagePreviewController_Example.framework; path = "Pods-ImagePreviewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE87DEE8244AD54CB173F4AE2AD4FA9 /* Pods-ImagePreviewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImagePreviewController_Example-umbrella.h"; sourceTree = "<group>"; };
-		124C1BD6870449B5B5678A86911925BE /* ImagePreviewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImagePreviewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		154C8FC56B32242638E3EF20270CC934 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		124C1BD6870449B5B5678A86911925BE /* ImagePreviewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImagePreviewController.framework; path = ImagePreviewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		289EBD3D3E0758E4D9E82E2F78F8C0FB /* ImageEditorVCKeyBoardDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageEditorVCKeyBoardDelegate.swift; path = ImagePreviewController/Classes/ImageEditorVCKeyBoardDelegate.swift; sourceTree = "<group>"; };
+		2C17C4539AD71742DEE94DE3D02BE3C2 /* ImageEditorTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageEditorTextView.swift; path = ImagePreviewController/Classes/ImageEditorTextView.swift; sourceTree = "<group>"; };
+		33F89AABE0FEF8BD44052F3F48A4F01E /* ImageEditorInputTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageEditorInputTextView.swift; path = ImagePreviewController/Classes/ImageEditorInputTextView.swift; sourceTree = "<group>"; };
+		3635BC424CDA552CF9B9FC0221EF2168 /* ImagePreviewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImagePreviewController.xcconfig; sourceTree = "<group>"; };
 		37DF56118AF564BA3F046D3C55112AD9 /* Pods-ImagePreviewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePreviewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3DD01293BA3ECB7718C1071C3F60BE14 /* ImageEditorLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageEditorLayout.swift; path = ImagePreviewController/Classes/ImageEditorLayout.swift; sourceTree = "<group>"; };
 		4E5AB8DB3F08E9A837E56F4DBE20389F /* Pods-ImagePreviewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePreviewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		60E2B527D0612923AFC79B3B7F6F7C61 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64E2CC5B346FD82D8E6D4FD271813C9E /* Pods-ImagePreviewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImagePreviewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		660E347AF376EBC28DB085AC7124BBD9 /* ImageEditorImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageEditorImageView.swift; path = ImagePreviewController/Classes/ImageEditorImageView.swift; sourceTree = "<group>"; };
 		68AF3B2F969A3D49CCF389DD3D6ADC75 /* Pods-ImagePreviewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImagePreviewController_Tests-resources.sh"; sourceTree = "<group>"; };
 		6C2B337E36F0C9F3EC33E12E71C88C8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D6018E815A575CA0C0FF1EAFB389961 /* Pods-ImagePreviewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImagePreviewController_Example-dummy.m"; sourceTree = "<group>"; };
 		6D6E6384365BDF88A6EDAB16680AA34F /* Pods-ImagePreviewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImagePreviewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		700699619BB4BF7DCC8339DA36FBCAE4 /* ImageEditorInputTextViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageEditorInputTextViewDelegate.swift; path = ImagePreviewController/Classes/ImageEditorInputTextViewDelegate.swift; sourceTree = "<group>"; };
 		7849A611AEAACD214BD4E322F57A81D5 /* Pods-ImagePreviewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePreviewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		78C9A4A32C311B76270DEE51539024C2 /* Pods-ImagePreviewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ImagePreviewController_Example.modulemap"; sourceTree = "<group>"; };
+		78C9A4A32C311B76270DEE51539024C2 /* Pods-ImagePreviewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImagePreviewController_Example.modulemap"; sourceTree = "<group>"; };
 		7923810C8F3700235022418FDACD0CF5 /* Pods-ImagePreviewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePreviewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		80825C9038793F15BB458677174252D7 /* ImagePreviewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ImagePreviewController.modulemap; sourceTree = "<group>"; };
+		894EC7E4D2E355077889E6E1A4E269CD /* ImagePreviewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImagePreviewController-dummy.m"; sourceTree = "<group>"; };
+		89F1762F44A56A39957326F084601803 /* ImageEditorSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageEditorSettings.swift; path = ImagePreviewController/Classes/ImageEditorSettings.swift; sourceTree = "<group>"; };
 		8E7A7965E36C232F942F9A9A612582F5 /* Pods-ImagePreviewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImagePreviewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FA8805F7046830EB2EB51EC1BC0880F /* Pods-ImagePreviewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImagePreviewController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A8542FE05E52BD09AC79135D2D5E5D93 /* Pods-ImagePreviewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ImagePreviewController_Tests.modulemap"; sourceTree = "<group>"; };
+		A8542FE05E52BD09AC79135D2D5E5D93 /* Pods-ImagePreviewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImagePreviewController_Tests.modulemap"; sourceTree = "<group>"; };
+		B580971633D07B950631F093401867F3 /* ImagePreviewEditorLogger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePreviewEditorLogger.swift; path = ImagePreviewController/Classes/ImagePreviewEditorLogger.swift; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BA12CDF49DE400311FA30F7C44455487 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C08C25DEF225523A434CF788A8D8FE71 /* ImagePreviewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImagePreviewController-dummy.m"; sourceTree = "<group>"; };
+		C25D4BB0D0BE1CB88082836789DC14DC /* ImagePreviewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImagePreviewController-prefix.pch"; sourceTree = "<group>"; };
 		C368797B4AE922618639D4CE44130913 /* Pods-ImagePreviewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImagePreviewController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CD27133BD68BE668801AF087731D57C0 /* ImagePreviewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImagePreviewController.xcconfig; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D8E9C3F5D01D698B7ABC26C21C0A2F02 /* Pods-ImagePreviewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImagePreviewController_Tests-dummy.m"; sourceTree = "<group>"; };
 		D8F1AA30D46C49C86E9E568A889197CC /* Pods-ImagePreviewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImagePreviewController_Example-resources.sh"; sourceTree = "<group>"; };
 		DBBFA528B6EE9F82311DCAE9C397B925 /* Pods-ImagePreviewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImagePreviewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E9A09097F7E2D3BDFA82A2025E115662 /* ImagePreviewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ImagePreviewController.modulemap; sourceTree = "<group>"; };
 		EAE9C3721443F3B81093CBD833D92990 /* Pods-ImagePreviewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImagePreviewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EB5A213BE906FF518EDABEC46C2AB17C /* ImagePreviewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImagePreviewController-umbrella.h"; sourceTree = "<group>"; };
-		F2F1E51E1FBC527A002C85A1 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		F2F1E5201FBC527A002C85A1 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		F2F1E5211FBC527A002C85A1 /* ImageEditorImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorImageView.swift; sourceTree = "<group>"; };
-		F2F1E5221FBC527A002C85A1 /* ImageEditorInputTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorInputTextView.swift; sourceTree = "<group>"; };
-		F2F1E5231FBC527A002C85A1 /* ImageEditorInputTextViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorInputTextViewDelegate.swift; sourceTree = "<group>"; };
-		F2F1E5241FBC527A002C85A1 /* ImageEditorLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorLayout.swift; sourceTree = "<group>"; };
-		F2F1E5251FBC527A002C85A1 /* ImageEditorSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorSettings.swift; sourceTree = "<group>"; };
-		F2F1E5261FBC527A002C85A1 /* ImageEditorTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorTextView.swift; sourceTree = "<group>"; };
-		F2F1E5271FBC527A002C85A1 /* ImageEditorVCKeyBoardDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorVCKeyBoardDelegate.swift; sourceTree = "<group>"; };
-		F2F1E5281FBC527A002C85A1 /* ImageEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditorViewController.swift; sourceTree = "<group>"; };
-		F2F1E5291FBC527A002C85A1 /* ImagePreviewEditorLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewEditorLogger.swift; sourceTree = "<group>"; };
-		F7CFCCB41F59DAB692CFA8B8D030625F /* Pods_ImagePreviewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImagePreviewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A19D2C33620075B0CDB99B75E44C07 /* ImagePreviewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImagePreviewController-umbrella.h"; sourceTree = "<group>"; };
+		F7CFCCB41F59DAB692CFA8B8D030625F /* Pods_ImagePreviewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImagePreviewController_Tests.framework; path = "Pods-ImagePreviewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEEA6A5F0F71F4F49F1C0D7BED12017 /* ImageEditorViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageEditorViewController.swift; path = ImagePreviewController/Classes/ImageEditorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		54C2C29D68CDABB26557313C0193D3F7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7382C434E92A79637B21212FB0D84BB3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7CC5B1C05791690EF27D8B8D195286B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6D0EC1DFBCD2082CCCC69378C8783612 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC250EEA909C968B4A89B21C850EABAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFB586E489EA6F95DA2847EFBAECBFF /* Foundation.framework in Frameworks */,
+				DA9077F021B2F8A7CAA53694DCF6660E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +111,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		150E2735241AD8FFA7C913291738B0F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80825C9038793F15BB458677174252D7 /* ImagePreviewController.modulemap */,
+				3635BC424CDA552CF9B9FC0221EF2168 /* ImagePreviewController.xcconfig */,
+				894EC7E4D2E355077889E6E1A4E269CD /* ImagePreviewController-dummy.m */,
+				C25D4BB0D0BE1CB88082836789DC14DC /* ImagePreviewController-prefix.pch */,
+				F7A19D2C33620075B0CDB99B75E44C07 /* ImagePreviewController-umbrella.h */,
+				60E2B527D0612923AFC79B3B7F6F7C61 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ImagePreviewController";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		5AA6DFF4BACC72836C368E512448D1E1 /* Pods-ImagePreviewController_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,11 +174,19 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				DB6D8959FB1479552F31F94F6A234999 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				8471BD051C2D8191CEEA10A32A1AEBA4 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				796A07855A11C42FA052E28E4BB89132 /* Products */,
 				F2BB012DCD837C640B3E7F5EEBB55D95 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8471BD051C2D8191CEEA10A32A1AEBA4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C40CE3EFFD045196CF9EA611E948A9DD /* ImagePreviewController */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A28BA9DC1CD6C94EB6C02A876D94BF69 /* Pods-ImagePreviewController_Example */ = {
@@ -158,53 +207,22 @@
 			path = "Target Support Files/Pods-ImagePreviewController_Example";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		C40CE3EFFD045196CF9EA611E948A9DD /* ImagePreviewController */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BD79CC147933238E3636A46516BA3D93 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E9A09097F7E2D3BDFA82A2025E115662 /* ImagePreviewController.modulemap */,
-				CD27133BD68BE668801AF087731D57C0 /* ImagePreviewController.xcconfig */,
-				C08C25DEF225523A434CF788A8D8FE71 /* ImagePreviewController-dummy.m */,
-				0719E81F681530B97F198844A2443663 /* ImagePreviewController-prefix.pch */,
-				EB5A213BE906FF518EDABEC46C2AB17C /* ImagePreviewController-umbrella.h */,
-				154C8FC56B32242638E3EF20270CC934 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ImagePreviewController";
-			sourceTree = "<group>";
-		};
-		C8638AB9D0547CF066D35ECDCF6449EF /* ImagePreviewController */ = {
-			isa = PBXGroup;
-			children = (
-				F2F1E51D1FBC527A002C85A1 /* Assets */,
-				F2F1E51F1FBC527A002C85A1 /* Classes */,
-				BD79CC147933238E3636A46516BA3D93 /* Support Files */,
+				660E347AF376EBC28DB085AC7124BBD9 /* ImageEditorImageView.swift */,
+				33F89AABE0FEF8BD44052F3F48A4F01E /* ImageEditorInputTextView.swift */,
+				700699619BB4BF7DCC8339DA36FBCAE4 /* ImageEditorInputTextViewDelegate.swift */,
+				3DD01293BA3ECB7718C1071C3F60BE14 /* ImageEditorLayout.swift */,
+				89F1762F44A56A39957326F084601803 /* ImageEditorSettings.swift */,
+				2C17C4539AD71742DEE94DE3D02BE3C2 /* ImageEditorTextView.swift */,
+				289EBD3D3E0758E4D9E82E2F78F8C0FB /* ImageEditorVCKeyBoardDelegate.swift */,
+				FBEEA6A5F0F71F4F49F1C0D7BED12017 /* ImageEditorViewController.swift */,
+				B580971633D07B950631F093401867F3 /* ImagePreviewEditorLogger.swift */,
+				150E2735241AD8FFA7C913291738B0F0 /* Support Files */,
 			);
 			name = ImagePreviewController;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		DB6D8959FB1479552F31F94F6A234999 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C8638AB9D0547CF066D35ECDCF6449EF /* ImagePreviewController */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		F2BB012DCD837C640B3E7F5EEBB55D95 /* Targets Support Files */ = {
@@ -216,41 +234,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F2F1E51D1FBC527A002C85A1 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				F2F1E51E1FBC527A002C85A1 /* .gitkeep */,
-			);
-			name = Assets;
-			path = ImagePreviewController/Assets;
-			sourceTree = "<group>";
-		};
-		F2F1E51F1FBC527A002C85A1 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				F2F1E5201FBC527A002C85A1 /* .gitkeep */,
-				F2F1E5211FBC527A002C85A1 /* ImageEditorImageView.swift */,
-				F2F1E5221FBC527A002C85A1 /* ImageEditorInputTextView.swift */,
-				F2F1E5231FBC527A002C85A1 /* ImageEditorInputTextViewDelegate.swift */,
-				F2F1E5241FBC527A002C85A1 /* ImageEditorLayout.swift */,
-				F2F1E5251FBC527A002C85A1 /* ImageEditorSettings.swift */,
-				F2F1E5261FBC527A002C85A1 /* ImageEditorTextView.swift */,
-				F2F1E5271FBC527A002C85A1 /* ImageEditorVCKeyBoardDelegate.swift */,
-				F2F1E5281FBC527A002C85A1 /* ImageEditorViewController.swift */,
-				F2F1E5291FBC527A002C85A1 /* ImagePreviewEditorLogger.swift */,
-			);
-			name = Classes;
-			path = ImagePreviewController/Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D2055474C7301A521A89DEC763A5F1BD /* Headers */ = {
+		D25BE41390506A8EC3ED06661727E2CD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA29DCF442F3590300C75AFD92313F13 /* ImagePreviewController-umbrella.h in Headers */,
+				F35447227427CFCC21CCAE8A80F5A7B5 /* ImagePreviewController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,13 +282,13 @@
 			productReference = 0643432FAEAF0DE7972D155E195DEFAA /* Pods_ImagePreviewController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0AB7B0D26E249FD04B160919975E178B /* ImagePreviewController */ = {
+		F085731DE4CF7848CA934727902FCC40 /* ImagePreviewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6799DF84D231F9B3FC795BCF2047E311 /* Build configuration list for PBXNativeTarget "ImagePreviewController" */;
+			buildConfigurationList = D0145A3E9E14C52859F5CBE352E75F93 /* Build configuration list for PBXNativeTarget "ImagePreviewController" */;
 			buildPhases = (
-				8163BF9EB9D6867D38B79AD6F2350DDE /* Sources */,
-				54C2C29D68CDABB26557313C0193D3F7 /* Frameworks */,
-				D2055474C7301A521A89DEC763A5F1BD /* Headers */,
+				E4A641DF48003197A1A802ACC902A2AB /* Sources */,
+				AC250EEA909C968B4A89B21C850EABAF /* Frameworks */,
+				D25BE41390506A8EC3ED06661727E2CD /* Headers */,
 			);
 			buildRules = (
 			);
@@ -346,7 +337,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0AB7B0D26E249FD04B160919975E178B /* ImagePreviewController */,
+				F085731DE4CF7848CA934727902FCC40 /* ImagePreviewController */,
 				023ABFEBADBAD75F0EECB54797710C9C /* Pods-ImagePreviewController_Example */,
 				FB6EB7F9C8BCEDF18B3D6E43E0BD55E9 /* Pods-ImagePreviewController_Tests */,
 			);
@@ -362,19 +353,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8163BF9EB9D6867D38B79AD6F2350DDE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E72EEDBD5E8B7CB2638068BCA0890641 /* ImagePreviewController-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8234D884EDCB732051AC4461F2E113D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FF12511CE83532305A9C55B770D5F61F /* Pods-ImagePreviewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A641DF48003197A1A802ACC902A2AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83D716303648BFC0703A454D8904EC6 /* ImageEditorImageView.swift in Sources */,
+				54EF03623BDF4847A5E2CE477E92094F /* ImageEditorInputTextView.swift in Sources */,
+				4B30F444EDA4ED20F2D6C6FD067F2CFA /* ImageEditorInputTextViewDelegate.swift in Sources */,
+				95719A391DB4F244477F6D4C447AE935 /* ImageEditorLayout.swift in Sources */,
+				A6AECC8DD78328B916AD0D7B24116FC6 /* ImageEditorSettings.swift in Sources */,
+				38E63A4E2E69B80DC40852D381D80636 /* ImageEditorTextView.swift in Sources */,
+				14584D05C654B4EC28EBFA5A9858459A /* ImageEditorVCKeyBoardDelegate.swift in Sources */,
+				4CEEE2BEECA4A1D21E588FF1EB5C29BC /* ImageEditorViewController.swift in Sources */,
+				9AA37AF6D80585903726D638B8DA23CD /* ImagePreviewController-dummy.m in Sources */,
+				3014C109ADBDB289107B279BE3FCA5E8 /* ImagePreviewEditorLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,12 +384,43 @@
 		4EC28D4248C6D0D7B9DFCDC90A065485 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ImagePreviewController;
-			target = 0AB7B0D26E249FD04B160919975E178B /* ImagePreviewController */;
+			target = F085731DE4CF7848CA934727902FCC40 /* ImagePreviewController */;
 			targetProxy = 08B3E0DC8AB6D2BF1C17897AFB9435D1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0C8334F719FA97EEDA625CB3A40055A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3635BC424CDA552CF9B9FC0221EF2168 /* ImagePreviewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImagePreviewController/ImagePreviewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImagePreviewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImagePreviewController/ImagePreviewController.modulemap";
+				PRODUCT_NAME = ImagePreviewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -450,38 +481,6 @@
 			};
 			name = Debug;
 		};
-		37531A3F7C3A251507C630EB3860F755 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD27133BD68BE668801AF087731D57C0 /* ImagePreviewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ImagePreviewController/ImagePreviewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImagePreviewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImagePreviewController/ImagePreviewController.modulemap";
-				PRODUCT_NAME = ImagePreviewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		38FE96A2214A5D8D2470E0FBB9B7C600 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7849A611AEAACD214BD4E322F57A81D5 /* Pods-ImagePreviewController_Tests.debug.xcconfig */;
@@ -541,6 +540,38 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F95DB50A8352A6A7DA3D004AD455113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3635BC424CDA552CF9B9FC0221EF2168 /* ImagePreviewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImagePreviewController/ImagePreviewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImagePreviewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImagePreviewController/ImagePreviewController.modulemap";
+				PRODUCT_NAME = ImagePreviewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -670,37 +701,6 @@
 			};
 			name = Debug;
 		};
-		9274DFF4CB3E73B3E219B4395E0DB1BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD27133BD68BE668801AF087731D57C0 /* ImagePreviewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ImagePreviewController/ImagePreviewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImagePreviewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImagePreviewController/ImagePreviewController.modulemap";
-				PRODUCT_NAME = ImagePreviewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -722,20 +722,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6799DF84D231F9B3FC795BCF2047E311 /* Build configuration list for PBXNativeTarget "ImagePreviewController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9274DFF4CB3E73B3E219B4395E0DB1BB /* Debug */,
-				37531A3F7C3A251507C630EB3860F755 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		98BCF2DC1D96529589740728760F8253 /* Build configuration list for PBXNativeTarget "Pods-ImagePreviewController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				866671EDA73B94623162C55699CBAA4B /* Debug */,
 				569D56B083E48F2256864365C0FB0304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0145A3E9E14C52859F5CBE352E75F93 /* Build configuration list for PBXNativeTarget "ImagePreviewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8334F719FA97EEDA625CB3A40055A8 /* Debug */,
+				6F95DB50A8352A6A7DA3D004AD455113 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
