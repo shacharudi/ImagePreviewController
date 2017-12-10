@@ -9,14 +9,14 @@
 import Foundation
 import UIKit
 
-public protocol ImageEditorViewControllerDelegate {
+public protocol ImageEditorViewControllerDelegate: class {
     func didSelectImage(image: UIImage, text: String)
     func didCancelImageSelection()
 }
 
 public class ImageEditorViewController: UIViewController, ImageEditorTextViewDelegate {
     
-    public var delegate: ImageEditorViewControllerDelegate?
+    public weak var delegate: ImageEditorViewControllerDelegate?
     internal let textInputView: ImageEditorTextView
     internal let editorImageView: ImageEditorImageView
     internal let image: UIImage

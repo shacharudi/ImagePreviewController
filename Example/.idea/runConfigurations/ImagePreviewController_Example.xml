@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ImagePreviewController-Example" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ImagePreviewController" TARGET_NAME="ImagePreviewController_Example" CONFIG_NAME="Debug" SCHEME_NAME="ImagePreviewController-Example" RUN_TARGET_PROJECT_NAME="ImagePreviewController" RUN_TARGET_NAME="ImagePreviewController_Example" MAKE_ACTIVE="TRUE">
+    <envs />
+    <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+      <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+    </EXTENSION>
+    <method />
+  </configuration>
+</component>

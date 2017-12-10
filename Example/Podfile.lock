@@ -1,5 +1,5 @@
 PODS:
-  - ImagePreviewController (0.1.0)
+  - ImagePreviewController (0.0.5)
 
 DEPENDENCIES:
   - ImagePreviewController (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ImagePreviewController: bd25f71fbe9a1a4b3f60226c4a43c25ac9ae9b64
+  ImagePreviewController: e6b25390e91f31ee7d3299805e59ad217f8dbf10
 
 PODFILE CHECKSUM: fcf5c597c05ce8e03aadc997c8981ebd6c1403aa
 
