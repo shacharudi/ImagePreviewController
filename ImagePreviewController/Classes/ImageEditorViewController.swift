@@ -53,10 +53,21 @@ public class ImageEditorViewController: UIViewController, ImageEditorTextViewDel
         self.editorImageView.configure(image: self.image)
     }
 
+    private func isIPhoneX() -> Bool {
+        if UIDevice().userInterfaceIdiom == .phone, UIScreen.main.nativeBounds.height == 2436 {
+            return true
+        }
+        return false
+    }
+    
     private func setupInputView() {
         self.view.addSubview(self.textInputView)
-        let bottomY = settings.screenHeight() - ImageEditorTextView.defaultHeight
-        textInputView.frame = CGRect(x: 0, y: bottomY, width: settings.screenWidth(), height: ImageEditorTextView.defaultHeight)
+        
+        let iPhoneXAddition: CGFloat = (self.isIPhoneX()) ? 20 : 0
+        let viewHeight = ImageEditorTextView.defaultHeight + iPhoneXAddition
+        
+        let bottomY = settings.screenHeight() - viewHeight
+        textInputView.frame = CGRect(x: 0, y: bottomY, width: settings.screenWidth(), height: viewHeight)
         textInputView.delegate = self
         textInputView.configure()
     }
