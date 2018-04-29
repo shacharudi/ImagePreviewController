@@ -69,16 +69,15 @@ public class ImageEditorViewController: UIViewController, ImageEditorTextViewDel
     
     private func setupInputView() {
         self.view.addSubview(self.textInputView)
+        let iPhoneXBottomAddition: CGFloat = 20
         
-        let saveAreaBottomPadding = self.getSafeAreaBottomInsets()
-        let viewHeight = ImageEditorTextView.defaultHeight + saveAreaBottomPadding
+        let safeAreaBottomPadding: CGFloat = (self.isIPhoneX()) ? iPhoneXBottomAddition : 0
+        let viewHeight = ImageEditorTextView.defaultHeight + safeAreaBottomPadding
         let bottomY = settings.screenHeight() - viewHeight
-
-        let inputBottomPadding = saveAreaBottomPadding / 2
         
         textInputView.frame = CGRect(x: 0, y: bottomY, width: settings.screenWidth(), height: viewHeight)
         textInputView.delegate = self
-        textInputView.configure(inputBottomPadding: inputBottomPadding)
+        textInputView.configure(inputBottomPadding: safeAreaBottomPadding)
     }
     
     private func addDismissTapHandler() {

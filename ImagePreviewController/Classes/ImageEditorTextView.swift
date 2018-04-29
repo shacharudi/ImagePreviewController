@@ -24,6 +24,8 @@ class ImageEditorTextView: UIView {
     private let leftButton = UIButton(frame: CGRect(x: 0, y: 0, width: 44, height: 44))
     private let rightButton = UIButton(frame: CGRect(x: 0, y: 0, width: 44, height: 44))
     
+    private var inputBottomPadding: CGFloat = 0
+    
     var delegate: ImageEditorTextViewDelegate?
     
     init(settings: ImageEditorCustomSettings) {
@@ -37,8 +39,9 @@ class ImageEditorTextView: UIView {
     }
     
     public func configure(inputBottomPadding: CGFloat) {
+        self.inputBottomPadding = inputBottomPadding
         self.setupInputView()
-        self.setupComponents(inputBottomPadding: inputBottomPadding)
+        self.setupComponents()
         self.addButtonHandlers()
     }
     
@@ -57,7 +60,7 @@ class ImageEditorTextView: UIView {
         self.setPlaceholderText()
     }
 
-    private func setupComponents(inputBottomPadding: CGFloat) {
+    private func setupComponents() {
         self.backgroundColor = UIColor(white: 0.95, alpha: 1)
 
         leftButton.setImage(settings.cancelButtonImage(), for: .normal)
@@ -86,7 +89,7 @@ class ImageEditorTextView: UIView {
         imageEditorInputTextView.pinToViewEdge(edge: .left, toEdge: .right, ofView: leftButton)
         imageEditorInputTextView.pinToViewEdge(edge: .top, toEdge: .bottom, ofView: seperator, margin: settings.textViewPaddingInContainer())
         imageEditorInputTextView.pinToViewEdge(edge: .right, toEdge: .left, ofView: rightButton)
-        imageEditorInputTextView.pinToViewEdge(edge: .bottom, toEdge: .bottom, ofView: self, margin: -settings.textViewPaddingInContainer() - inputBottomPadding)
+        imageEditorInputTextView.pinToViewEdge(edge: .bottom, toEdge: .bottom, ofView: self, margin: -settings.textViewPaddingInContainer() - self.inputBottomPadding)
     }
     
     //MARK:- Actions
@@ -148,8 +151,8 @@ class ImageEditorTextView: UIView {
     private func heightForTextInputView() -> CGFloat {
         let contentHeight = self.imageEditorInputTextView.contentSize.height
         if (contentHeight < ImageEditorTextView.defaultHeight) {
-            return ImageEditorTextView.defaultHeight
+            return ImageEditorTextView.defaultHeight + self.inputBottomPadding
         }
-        return contentHeight
+        return contentHeight  + self.inputBottomPadding
     }
 }
