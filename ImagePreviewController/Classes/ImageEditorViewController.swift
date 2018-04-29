@@ -60,16 +60,25 @@ public class ImageEditorViewController: UIViewController, ImageEditorTextViewDel
         return false
     }
     
+    private func getSafeAreaBottomInsets() -> CGFloat {
+        if #available(iOS 11.0, *) {
+            return self.view.safeAreaInsets.bottom
+        }
+        return 0
+    }
+    
     private func setupInputView() {
         self.view.addSubview(self.textInputView)
         
-        let iPhoneXAddition: CGFloat = (self.isIPhoneX()) ? 20 : 0
-        let viewHeight = ImageEditorTextView.defaultHeight + iPhoneXAddition
-        
+        let saveAreaBottomPadding = self.getSafeAreaBottomInsets()
+        let viewHeight = ImageEditorTextView.defaultHeight + saveAreaBottomPadding
         let bottomY = settings.screenHeight() - viewHeight
+
+        let inputBottomPadding = saveAreaBottomPadding / 2
+        
         textInputView.frame = CGRect(x: 0, y: bottomY, width: settings.screenWidth(), height: viewHeight)
         textInputView.delegate = self
-        textInputView.configure()
+        textInputView.configure(inputBottomPadding: inputBottomPadding)
     }
     
     private func addDismissTapHandler() {

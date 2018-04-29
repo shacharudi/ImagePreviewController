@@ -36,9 +36,9 @@ class ImageEditorTextView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    public func configure() {
+    public func configure(inputBottomPadding: CGFloat) {
         self.setupInputView()
-        self.setupComponents()
+        self.setupComponents(inputBottomPadding: inputBottomPadding)
         self.addButtonHandlers()
     }
     
@@ -57,7 +57,7 @@ class ImageEditorTextView: UIView {
         self.setPlaceholderText()
     }
 
-    private func setupComponents() {
+    private func setupComponents(inputBottomPadding: CGFloat) {
         self.backgroundColor = UIColor(white: 0.95, alpha: 1)
 
         leftButton.setImage(settings.cancelButtonImage(), for: .normal)
@@ -86,7 +86,7 @@ class ImageEditorTextView: UIView {
         imageEditorInputTextView.pinToViewEdge(edge: .left, toEdge: .right, ofView: leftButton)
         imageEditorInputTextView.pinToViewEdge(edge: .top, toEdge: .bottom, ofView: seperator, margin: settings.textViewPaddingInContainer())
         imageEditorInputTextView.pinToViewEdge(edge: .right, toEdge: .left, ofView: rightButton)
-        imageEditorInputTextView.pinToViewEdge(edge: .bottom, toEdge: .bottom, ofView: self, margin: -settings.textViewPaddingInContainer())
+        imageEditorInputTextView.pinToViewEdge(edge: .bottom, toEdge: .bottom, ofView: self, margin: -settings.textViewPaddingInContainer() - inputBottomPadding)
     }
     
     //MARK:- Actions
